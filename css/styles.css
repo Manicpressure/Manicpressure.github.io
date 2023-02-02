@@ -1,0 +1,116 @@
+/* CSS file. */
+
+/* Responsive framework */
+/*Set row*/
+.row {
+  width: 100%;
+}
+/*Set the Sections with decorations to differentiate. 
+ * Set margin to give space in between each section*/
+#sectionC {
+  background-color: white;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+
+#sectionB {
+  background-color: black;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+#sectionP {
+  background-color: pink;
+  border: 1px solid black;
+  margin: 15px;
+ }
+/*Set text box
+ * Have padding for space between text and section edge
+ * Make margin of 40 from top to avoid collision with title*/
+#textC {
+  color: red;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#textB {
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#textP {
+  color: black;
+  padding: 10px;
+  margin-top: 40px;
+}
+/*Set title
+ * Set dimensions, alignment and color for the title box to the top right*/
+#titleC {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0px;
+  float: right;
+  font-size: 26px;
+  width: 125px;
+  height: 40px;
+}
+
+#titleB {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0px;
+  float: right;
+  font-size: 26px;
+  width: 125px;
+  height: 40px;
+}
+
+
+#titleP {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0px;
+  float: right;
+  font-size: 26px;
+  width: 125px;
+  height: 40px;
+}
+
+/*Set responsive design
+ * Large will have 30% width to account for margin, with tolerance*/
+@media (min-width: 992px) {
+	.col-md-4 {
+	width: 30%;
+	float: left;
+  	}
+}
+/*Medium will have 45% width and 93.5% for best alignment*/ 
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+	width: 45%;
+  	float: left;
+  	}
+  
+  	.col-sm-12 {
+  	width: 93.5%;
+  	float: left;
+  	}
+
+}
+/*Small will have 98% width*/
+@media (max-width: 767px) {
+	.col-xs-12 {
+	width: 98%;
+  	float: left;
+  	}
+}
+
+

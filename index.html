@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- https://github.com/jhu-ep-coursera/fullstack-course4/blob/e39964bd27cffbf0757f76ebcd16921f0fecfc80/assignments/assignment2/Assignment-2.md -->
+
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+    		<meta name='viewport' content='width=device-width, initial-scale=1'>
+    		<title>Mod2Menu</title>
+    		<style>
+      		* {
+        		margin: 0px;
+        		padding: 0px;
+        		box-sizing: border-box;
+      		}
+
+      		html {
+        		font-family: monospace;
+      		}
+
+      		h1 {
+        		font-size: 36px;
+        		text-align: center
+      		}
+
+      		div .container {
+        		top: 50px;
+      		}
+
+    		</style>
+    		<link rel='stylesheet' href='css/styles.css'>
+  	</head>
+  <!-- We will be initializing with above parameters. 
+  specify language, encoding, and ensure responsive design
+  Basic formatting done here
+  Set all to border-box with no initial margin
+  Set font-family to monospace, my favourite fonts
+  and Set h1 as we want to leave it relatively untouched
+  Load in styles.css last to make it override any rules set above-->
+
+
+  	<body>
+    		<h1>Our Menu</h1>
+    		<div class='container-fluid'>
+      			<div class='row'>
+        			<div class='col-md-4 col-sm-6 col-xs-12' id='sectionC'>
+          				<p id='titleC'>Chicken</p>
+          				<div id='textC'> I am not a Spring chicken, I am not,
+                          				And I haven't any mother, that is what!
+                          				Just the bright July sun beaming,
+                          				On the nest where I lay dreaming
+                          				Was what caused me to be here, that's what!
+
+                          				I was carried to the store one day
+                          				After laying twenty days on the hay,
+                          				In the hottest July weather,
+                          				I and some more eggs together
+                          				And was ready then to throw my shell away. 
+                          				- Ed Blair Not a Spring Chicken</div>
+        			</div>
+        <!-- First section. 
+        The row is where all the sections will reside
+        First section will have 3 sizes, 3, 2, and 1 section per row
+        Set the breakpoint markers as shown in tutorial
+        titleC is made with p tag to make it easy to move
+        Separate div tag for text box for customisation-->
+	        		<div class='col-md-4 col-sm-6 col-xs-12' id='sectionB'>
+		        		<p id='titleB'>Beef</p>
+          				<div id='textB'>Something inspires the only cow of late
+                        		To make no more of a wall than an open gate,
+                          		And think no more of wall-builders than fools.
+                          		Her face is flecked with pomace and she drools
+		                        A cider syrup. Having tasted fruit,
+                		        She scorns a pasture withering to the root.
+		                        She runs from tree to tree where lie and sweeten
+		                        The windfalls spiked with stubble and worm-eaten.
+                		        She leaves them bitten when she has to fly.
+		                        She bellows on a knoll against the sky.
+                		        Her udder shrivels and the milk goes dry. 
+		                        - Robert Frost The Cow in Apple Time</div>
+	        		</div>
+        <!-- Second section. Same as before -->
+	        		<div class='col-md-4 col-sm-12 col-xs-12' id='sectionP'>
+        				<p id='titleP'>Pork</p>
+			       		<div id='textP'>Once we owned a little pig,
+                		          All it did was grunt, grunt,
+                	        	  Small, because he wasn't big,
+		                          And we called him Runt, Runt.
+	        	                  Born the wrong time of the moon
+                	        	  'Cause he died so very soon.
+                     		   	  - Ed Blair A story of our runt</div>
+		      		</div>
+        <!-- Third section.Same design.-->
+      			</div>  
+		</div>
+	</body>
+</html>
+
