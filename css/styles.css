@@ -1,116 +1,59 @@
-/* CSS file. */
-
-/* Responsive framework */
-/*Set row*/
-.row {
-  width: 100%;
-}
-/*Set the Sections with decorations to differentiate. 
- * Set margin to give space in between each section*/
-#sectionC {
-  background-color: white;
-  border: 1px solid black;
-  margin: 15px;
+* {
+   box-sizing: border-box;
 }
 
-
-#sectionB {
-  background-color: black;
-  border: 1px solid black;
-  margin: 15px;
+#nav-list > li {
+   	text-align: center;
+   	font-weight: bold;
+   	padding: 1px;
+	margin: 5px;
 }
 
-#sectionP {
-  background-color: pink;
-  border: 1px solid black;
-  margin: 15px;
- }
-/*Set text box
- * Have padding for space between text and section edge
- * Make margin of 40 from top to avoid collision with title*/
-#textC {
-  color: red;
-  padding: 10px;
-  margin-top: 40px;
+div section {
+   margin: 10px;
+   padding: 10px;
 }
 
-#textB {
-  color: white;
-  padding: 10px;
-  margin-top: 40px;
+#ChickenSection {
+   background-color: #DC143C;
 }
 
-#textP {
-  color: black;
-  padding: 10px;
-  margin-top: 40px;
-}
-/*Set title
- * Set dimensions, alignment and color for the title box to the top right*/
-#titleC {
-  background-color: red;
-  color: white;
-  text-align: center;
-  border: 1px solid black;
-  margin-top: 0px;
-  float: right;
-  font-size: 26px;
-  width: 125px;
-  height: 40px;
+#BeefSection {
+   background-color: #FF8C00;
 }
 
-#titleB {
-  background-color: white;
-  color: black;
-  text-align: center;
-  border: 1px solid black;
-  margin-top: 0px;
-  float: right;
-  font-size: 26px;
-  width: 125px;
-  height: 40px;
+#SushiSection {
+   background-color: grey;
 }
 
-
-#titleP {
-  background-color: pink;
-  color: black;
-  text-align: center;
-  border: 1px solid black;
-  margin-top: 0px;
-  float: right;
-  font-size: 26px;
-  width: 125px;
-  height: 40px;
+#text > h3 {
+   margin-bottom: 10px;
 }
 
-/*Set responsive design
- * Large will have 30% width to account for margin, with tolerance*/
-@media (min-width: 992px) {
-	.col-md-4 {
-	width: 30%;
-	float: left;
-  	}
+#header-nav .navbar-brand {
+   position: absolute;
+   left: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 40px;
+   color: black;
+   width: 100%;
+   /*float: left;*/
+   border-width: 3px;
+   border-bottom-style: solid;
+   background-color: white;
 }
-/*Medium will have 45% width and 93.5% for best alignment*/ 
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-sm-6 {
-	width: 45%;
-  	float: left;
-  	}
-  
-  	.col-sm-12 {
-  	width: 93.5%;
-  	float: left;
-  	}
 
+#page-heading {
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 70px;
+   
 }
-/*Small will have 98% width*/
-@media (max-width: 767px) {
-	.col-xs-12 {
-	width: 98%;
-  	float: left;
-  	}
+
+a:link, a:visited {
+	color: black;
 }
+
 
 
